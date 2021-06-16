@@ -1,0 +1,22 @@
+<section class="container">
+  <div class="page-not-found mb-5">
+    <div class="balloon-container mt-0">
+      <div class="span">
+        <div class="inner">
+          <div class="balloon-svg">
+            <div id="not_found_balloon"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="title">SORRY, SOMETHING IS MISSING!</h2>
+    <h2>We couldn't find what you were looking for.</h2>
+    <div class="back-home">
+      <span id="hidden_arrow"></span>
+      <a href="/" id="back_home_txt" class="title">Go to Homepage</a>
+      <span id="not_found_arrow"></span>
+    </div>
+  </div>
+</section>
+
+<script defer data-cfasync="false" src="<%= static_path(@conn, "/js/page-not-found.js") %>"></script>
